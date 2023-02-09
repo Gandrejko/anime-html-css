@@ -20,7 +20,8 @@ body {
 
 /* Remove scroll bars */
 .main__categories::-webkit-scrollbar,
-.main::-webkit-scrollbar { 
+.main::-webkit-scrollbar,
+.side-panel__streamers::-webkit-scrollbar {
     width: 0; 
     height: 0;
 }

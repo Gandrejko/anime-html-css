@@ -2,7 +2,14 @@
     background-color: #e7e7e7;
     grid-column: 1/2;
     grid-row: 2/3;
-    position: relative;    
+    position: relative;
+    overflow: hidden;
+}
+
+.side-panel__streamers {
+    overflow: hidden;
+    overflow-y: scroll;
+    height: calc(100% - 200px);
 }
 
 .side-panel__item {
@@ -52,12 +59,15 @@
 }
 
 .side-panel__community {
-    height: 150px;
+    height: 200px;
     width: 100%;
     padding: 20px;
     position: absolute;
     left: 0;
     bottom: 0;
+    border-top: 2px solid #fff;
+    z-index: 2;
+    background-color: #e7e7e7;
 }
 
 .side-panel__community-container {
