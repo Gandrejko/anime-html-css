@@ -25,6 +25,7 @@
     opacity: 0;
     background-color: rgba(0, 0, 0, 0.33);
     transition: all 0.2s;
+    z-index: 1;
 }
 
 .main__video-overlay i {
@@ -38,9 +39,19 @@
 }
 
 .main__video-image {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     background-color: var(--sec-color);
+    pointer-events: none;
+}
+
+.main__video-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .main__video-live {
@@ -54,6 +65,7 @@
     border-radius: 5px;
     display: none;
     cursor: pointer;
+    z-index: 2;
 }
 
 .main__video-viewers,
@@ -67,6 +79,7 @@
     border-radius: 5px;
     padding: 5px;
     cursor: pointer;
+    z-index: 2;
 }
 
 .main__video-viewers {

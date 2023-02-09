@@ -22,6 +22,7 @@ body {
     display: grid;
     grid-template-rows: 70px 1fr;
     grid-template-columns: 240px 1fr;
+    background-color: var(--main-color);
 }
 
 .streamer-avatar {
