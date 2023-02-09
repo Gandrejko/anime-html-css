@@ -42,13 +42,13 @@
 .side-panel__item.live .side-panel__viewers::before{
     content: '';
     position: absolute;
-    top: 50%;
+    top: 4px;
     left: -15px;
-    transform: translateY(-50%);
     width: 10px;
     height: 10px;
     background-color: rgb(197, 36, 36);
     border-radius: 50%;
+    animation: live 2s infinite ease-in-out;
 }
 
 .side-panel__community {
@@ -96,4 +96,13 @@
 
 .side-panel__social:hover {
     color: #49c4ac;
+}
+
+@keyframes live {
+    0%, 80%, 100% {
+        transform: scale(0.8);
+    }
+    40% {
+      transform: scale(1.1);
+    }
 }
