@@ -1,0 +1,11 @@
+@media all and (max-width: 1200px) {
+    body {
+        grid-template-columns: 70px 1fr;
+    }
+
+    .side-panel__viewers,
+    .side-panel__name,
+    .side-panel__community {
+        display: none;
+    }
+}

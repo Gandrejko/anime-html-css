@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+    font-weight: 700;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: 70px 1fr;
+    grid-template-columns: 300px 1fr;
+}
+
+.streamer-avatar {
+    font-size: 24px;
+}
+
+/* Remove scroll bars */
+.main__categories::-webkit-scrollbar,
+.main::-webkit-scrollbar { 
+    width: 0; 
+    height: 0;
+}
+

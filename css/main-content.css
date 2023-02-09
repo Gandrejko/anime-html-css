@@ -1,0 +1,123 @@
+.main__content {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 20px;
+}
+
+.main__video {
+    width: 100%;
+}
+
+.main__video-preview {
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+
+.main__video-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.354);
+    transition: all 0.2s;
+}
+
+.main__video-overlay i {
+    color: #ffffffc2;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.main__video-preview:hover .main__video-overlay {
+    opacity: 1;
+}
+
+.main__video-image {
+    width: 100%;
+    height: 100%;
+    background-color: #ccc;
+}
+
+.main__video-live {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: red;
+    color: #fff;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+    display: none;
+    cursor: pointer;
+}
+
+.main__video-viewers,
+.main__video-length {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.main__video-viewers {
+    display: none;
+}
+
+.main__video.live .main__video-viewers,
+.main__video.live .main__video-live {
+    display: block;
+}
+
+.main__video.live .main__video-length {
+    display: none;
+}
+
+.main__video-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.main__video-footer-left {
+    display: flex;
+    align-items: center;
+}
+
+.main__video-descr {
+    margin-left: 20px;
+}
+
+.main__video-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.main__video-streamer-name {
+    font-size: 14px;
+    color: #777777;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.main__video-title:hover,
+.main__video-streamer-name:hover {
+    color: #38c2ce;
+}
+
+.main__video-options {
+    cursor: pointer;
+}
+
