@@ -47,7 +47,7 @@
 }
 
 .header__search .header__search-input input:focus {
-    border: 3px solid rgb(84, 103, 196);
+    border: 3px solid var(--icon-text-hover-color);
 }
 
 .header__search .header__search-input button {
@@ -58,6 +58,11 @@
     cursor: pointer;
     border-radius: 0 5px 5px 0;
     border: 1px solid rgb(139, 139, 139);
+    transition: 0.3s;
+}
+
+.header__search-input button:hover {
+    background-color: var(--hover-color);
 }
 
 .header__search .header__search-voice {
@@ -74,12 +79,12 @@
 
 .header__search .header__search-voice i:hover,
 .header__client .header__client-ntfc i:hover {
-    color: #666666;    
+    color: #666666;
 }
 
 .header__client .header__client-profile {
     margin-left: 20px;
-    background-color: #f6af44;
+    background-color: var(--primary-color);
     padding: 15px;
     border-radius: 50%;
     cursor: pointer;
@@ -88,7 +93,7 @@
 }
 
 .header__client .header__client-profile:hover {
-    background-color: #9a9a9a;
+    background-color: var(--hover-color);
 }
 
 .header__client-popup {
@@ -97,7 +102,7 @@
     right: 0;
     display: none;
     width: 150px;
-    background-color: #fff;
+    background-color: var(--main-color);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
 }
@@ -112,7 +117,7 @@
 
 .header__client-popup .header__client-popup-option.logout {
     border-top: 1px solid rgb(135, 135, 135);
-    color: red;
+    color: var(--live-color);
 }
 
 .header__client-popup .header__client-popup-option span {
@@ -120,5 +125,5 @@
 }
 
 .header__client-popup .header__client-popup-option:hover {
-    background-color: #c4c4c4;
+    background-color: var(--hover-color);
 }

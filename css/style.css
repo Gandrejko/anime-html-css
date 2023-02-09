@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
 
+:root {
+    --main-color: #fff;
+    --sec-color: #ebebeb;
+    --hover-color: #dfdedf;
+
+    --primary-color: #f3a53a;
+    --live-color: #c80000;
+    --icon-text-hover-color: #0074c2;
+}
+
 * {
     box-sizing: border-box;
     font-family: 'Comic Neue', cursive;
