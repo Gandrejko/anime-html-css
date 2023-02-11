@@ -30,6 +30,7 @@
     background-color: var(--sec-color);
     margin-left: 15px;
     cursor: pointer;
+    white-space: nowrap;
 }
 
 .main__category:hover {
