@@ -34,6 +34,10 @@
     cursor: pointer;
 }
 
+.main__video-overlay i:hover {
+    color: var(--primary-color);
+}
+
 .main__video-preview:hover .main__video-overlay {
     opacity: 1;
 }
@@ -59,7 +63,7 @@
     top: 5px;
     left: 5px;
     background-color: var(--live-color);
-    color: var(--main-color);
+    color: #fff;
     padding: 5px;
     font-size: 12px;
     border-radius: 5px;
@@ -74,7 +78,7 @@
     bottom: 5px;
     right: 5px;
     background-color: rgba(0, 0, 0, 0.5);
-    color: var(--main-color);
+    color: #fff;
     font-size: 14px;
     border-radius: 5px;
     padding: 5px;

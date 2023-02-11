@@ -5,25 +5,18 @@
     --sec-color: #ebebeb;
     --hover-color: #dfdedf;
 
+    --text-color: #000;
     --primary-color: #f3a53a;
     --live-color: #c80000;
     --icon-text-hover-color: #0074c2;
 }
 
-/*body.night {
-    --main-color: #1F1D36;
-    --sec-color: #3F3351;
-    --hover-color: #864879;
-
-    --primary-color: #E9A6A6;
-    --live-color: #c80000;
-    --icon-text-hover-color: #a8c0ce;
-}*/
-
 * {
     box-sizing: border-box;
     font-family: 'Comic Neue', cursive;
     font-weight: 700;
+    transition: 0.2s;
+    color: var(--text-color);
 }
 
 body {

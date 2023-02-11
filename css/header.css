@@ -60,6 +60,7 @@
     border-radius: 0 5px 5px 0;
     border: 1px solid rgb(139, 139, 139);
     transition: 0.3s;
+    background: var(--primary-color);
 }
 
 .header__search-input button:hover {
@@ -93,6 +94,10 @@
     position: relative;
 }
 
+.header__client-ntfc {
+    margin-left: 20px;
+}
+
 .header__client .header__client-profile:hover {
     background-color: var(--hover-color);
 }
@@ -118,6 +123,11 @@
 
 .header__client-popup .header__client-popup-option.logout {
     border-top: 1px solid rgb(135, 135, 135);
+}
+
+.header__client-popup .header__client-popup-option.logout span,
+.header__client-popup .header__client-popup-option.logout i
+{
     color: var(--live-color);
 }
 
