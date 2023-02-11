@@ -43,3 +43,15 @@
     color: var(--main-color);
 }
 
+/*Footer*/
+
+.main__footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.main__footer span {
+    margin-right: 10px;
+}
+

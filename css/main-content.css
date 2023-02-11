@@ -107,6 +107,14 @@
     align-items: center;
 }
 
+.main__video-avatar {
+    overflow: hidden;
+    width: 30px;
+    height: 30px;
+    background-color: var(--main-color);
+    border-radius: 50%;
+}
+
 .main__video-descr {
     margin-left: 20px;
 }
