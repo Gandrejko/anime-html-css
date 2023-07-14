@@ -13,9 +13,3 @@
         display: none;
     }
 }
-
-@media all and (max-width: 815px) {
-    .main__video-preview {
-        height: 50vw;
-    }
-}

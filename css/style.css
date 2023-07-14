@@ -28,10 +28,6 @@ body {
     background-color: var(--main-color);
 }
 
-.streamer-avatar {
-    font-size: 24px;
-}
-
 /* Remove scroll bars */
 .main__categories::-webkit-scrollbar,
 .main::-webkit-scrollbar,
@@ -47,6 +43,7 @@ body {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    font-size: 24px;
 }
 
 .streamer-avatar img {
