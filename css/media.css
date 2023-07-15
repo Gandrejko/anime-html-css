@@ -13,3 +13,9 @@
         display: none;
     }
 }
+
+@media all and (max-width: 800px) {
+    .header__search {
+        display: none !important;
+    }
+}
